@@ -1,0 +1,734 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>RC4 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Section 1_report.html" />
+    
+    
+    <link rel="prev" href="entries_RC3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="entry_list.md">
+            
+                <span>
+            
+                    
+                    Entry List
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="entries_RC1.html">
+            
+                <a href="entries_RC1.html">
+            
+                    
+                    RC1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="entries_RC2.html">
+            
+                <a href="entries_RC2.html">
+            
+                    
+                    RC2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="entries_RC3.html">
+            
+                <a href="entries_RC3.html">
+            
+                    
+                    RC3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="entries_RC4.html">
+            
+                <a href="entries_RC4.html">
+            
+                    
+                    RC4
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Section 1_report.html">
+            
+                <a href="Section 1_report.html">
+            
+                    
+                    Section 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="SS1_report.html">
+            
+                <a href="SS1_report.html">
+            
+                    
+                    SS1 - Lousada (SSS)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Section 2_report.html">
+            
+                <a href="Section 2_report.html">
+            
+                    
+                    Section 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="SS2_report.html">
+            
+                <a href="SS2_report.html">
+            
+                    
+                    SS2 - Viana do Castelo 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="SS3_report.html">
+            
+                <a href="SS3_report.html">
+            
+                    
+                    SS3 - Caminha 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="SS4_report.html">
+            
+                <a href="SS4_report.html">
+            
+                    
+                    SS4 - Ponte de Lima 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Section 3_report.html">
+            
+                <a href="Section 3_report.html">
+            
+                    
+                    Section 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="SS5_report.md">
+            
+                <span>
+            
+                    
+                    SS5 - Viana do Castelo 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="SS6_report.md">
+            
+                <span>
+            
+                    
+                    SS6 - Caminha 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="SS7_report.md">
+            
+                <span>
+            
+                    
+                    SS7 - Ponte de Lima 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="SS8_report.md">
+            
+                <span>
+            
+                    
+                    SS8 - Porto Street Stage1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="SS9_report.md">
+            
+                <span>
+            
+                    
+                    SS9 - Porto Street Stage2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Section 4_report.html">
+            
+                <a href="Section 4_report.html">
+            
+                    
+                    Section 4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="SS10_report.md">
+            
+                <span>
+            
+                    
+                    SS10 - Vieira do Minho 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="SS11_report.md">
+            
+                <span>
+            
+                    
+                    SS11 - Cabeceiras de Basto 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="SS12_report.md">
+            
+                <span>
+            
+                    
+                    SS12 - Amarante 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Section 5_report.html">
+            
+                <a href="Section 5_report.html">
+            
+                    
+                    Section 5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="SS13_report.md">
+            
+                <span>
+            
+                    
+                    SS13 - Vieira do Minho 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="SS14_report.md">
+            
+                <span>
+            
+                    
+                    SS14 - Cabeceiras de Basto 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="SS15_report.md">
+            
+                <span>
+            
+                    
+                    SS15 - Amarante 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Section 6_report.html">
+            
+                <a href="Section 6_report.html">
+            
+                    
+                    Section 6
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="SS16_report.md">
+            
+                <span>
+            
+                    
+                    SS16 - Montim 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="SS17_report.md">
+            
+                <span>
+            
+                    
+                    SS17 - Fafe 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="SS18_report.md">
+            
+                <span>
+            
+                    
+                    SS18 - Luilhas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="SS19_report.md">
+            
+                <span>
+            
+                    
+                    SS19 - Montim 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Section 7_report.html">
+            
+                <a href="Section 7_report.html">
+            
+                    
+                    Section 7
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="SS20_report.md">
+            
+                <span>
+            
+                    
+                    SS20 - Fafe 2 (Power Stage)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >RC4</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="group-rc4">Group RC4:</h2>
+<ul>
+<li>Dennis  R&#xC5;DSTR&#xD6;M (SWE) and co-driver Johan JOHANSSON (SWE) for the DENNIS R&#xC5;DSTR&#xD6;M.</li>
+<li>Jean-Baptiste  FRANCESCHI (FRA) and Romain COURBON (FRA) of the &#xC9;QUIPE DE FRANCE FFSA RALLYE.</li>
+<li>Emil  BERGKVIST (SWE) and co-driver Joakim SJ&#xD6;BERG (SWE) of the EMIL BERGKVIST.</li>
+<li>Terry FOLB (FRA) and co-driver Kevin BRONNER (FRA) of the TERRY FOLB.</li>
+<li>Callum DEVINE (IRL) and Brian HOY (IRL) from the CALLUM DEVINE.</li>
+<li>Julius TANNERT (DEU) and co-driver J&#xFC;rgen HEIGL (AUT) from the ADAC SACHSEN E.V..</li>
+<li>Ken TORN (EST) and co-driver Kuldar SIKK (EST) for the OT RACING.</li>
+<li>Luca  BOTTARELLI (ITA) and Manuel  FENOLI (ITA) for the ACI TEAM ITALIA WRC.</li>
+<li>Emilio FERN&#xC1;NDEZ (CHL) and co-driver Joaquin RIQUELME (CHL) of the EMILIO FERN&#xC1;NDEZ.</li>
+<li>Bugra BANAZ (TUR) and co-driver Burak ERDENER (TUR) of the CASTROL FORD TEAM TURKIYE.</li>
+<li>David HOLDER (NZL) and Jason FARMER (NZL) for the HOLDER BROTHERS RACING.</li>
+<li>Tom WILLIAMS (GBR) and Phil HALL (GBR) for the TOM WILLIAMS.</li>
+<li>Enrico  OLDRATI (ITA) and co-driver Danilo  FAPPANI (ITA) of the ACI TEAM ITALIA WRC.</li>
+<li>Umberto ACCORNERO (ITA) and Maurizio BARONE (ITA) for the UMBERTO ACCORNERO.</li>
+<li>H&#xE9;lder MIRANDA (PRT) and co-driver Rui TEIXEIRA (PRT) for the H&#xC9;LDER MIRANDA.</li>
+<li>Pedro LAGO VIEIRA (PRT) and Ricardo FARIA (PRT) from the PEDRO LAGO VIEIRA.</li>
+<li>Joana  BARBOSA (PRT) and Sofia MOUTA (PRT) of the JOANA BARBOSA.</li>
+<li>Nabila  TEJPAR (GBR) and co-driver Richard BLISS (GBR) for the NABILA TEJPAR.</li>
+<li>Cameron DAVIES (GBR) and Max FREEMAN (GBR) for the CAMERON DAVIES.</li>
+<li>Roberto BLACH NU&#xD1;EZ (ESP) and Jos&#xE9; MURADO GONZALEZ (ESP) for the ESCUDER&#xCD;A LA CORU&#xD1;A.</li>
+<li>Hugo LOPES (PRT) and Alberto SILVA (PRT) from the HUGO LOPES.</li>
+<li>Paulo MOREIRA (PRT) and co-driver Marco MACEDO (PRT) of the PAULO MOREIRA.</li>
+<li>Francisco DORADO VIZCA&#xCD;NO (ESP) and Roi TORRENTE P&#xC9;REZ (ESP) of the PTC ESCUELA.</li>
+<li>Pedro ANTUNES (PRT) and Paulo LOPES (PRT) for the PEDRO ANTUNES.</li>
+<li>Daniel  NUNES (PRT) and co-driver Rui RAIMUNDO (PRT) of the DANIEL NUNES.</li>
+<li>Ivan MEDINA HERRERA (ESP) and Yeray MUJICA EUGENIO (ESP) from the ESCUDERIA ATERURA.</li>
+<li>Juan MANUEL MA&#xD1;&#xC1; (ESP) and co-driver Borja ODRIOZOLA (ESP) from the RASANTE SPORT.</li>
+<li>Ricardo SOUSA (PRT) and Lu&#xED;s MARQUES (PRT) of the RICARDO SOUSA.</li>
+<li>Josep  BASSAS (ESP) and co-driver Axel CORONADO (PRT) from the SEC. ESP. RACC MOTOR SPORT.</li>
+<li>Jo&#xE3;o ALVES (PRT) and co-driver Jos&#xE9; RODRIGUES (PRT) from the JO&#xC3;O ALVES.</li>
+<li>Rui CARVALHO (PRT) and co-driver Jorge CARVALHO (PRT) of the RUI CARVALHO.</li>
+<li>Jan SOLANS BALDO (ESP) and Mauro BARREIRO ZAS (ESP) of the ESCUDERIA MOTOR TERRASSA.</li>
+<li>Diogo GAGO (PRT) and Miguel RAMALHO (PRT) of the MCOUTINHO RACING.</li>
+<li>Ramon CORNET (ESP) and co-driver Daniel NOGUER (ESP) for the ESCUDERIA OSONA.</li>
+<li>Alberto SANSEGUNDO (ESP) and co-driver Juan LUIS GARCIA (ESP) of the FMC-UCAV RACING ENGINEERING.</li>
+<li>Miguel LOBO (PRT) and co-driver Paulo MARQUES (PRT) for the MIGUEL LOBO.</li>
+<li>Diogo  SOARES (PRT) and co-driver Lu&#xED;s  RODRIGUES (PRT) from the DIOGO SOARES.</li>
+<li>Alvaro  PEREZ ABEIJON (ESP) and co-driver Brais MIRON CARNES (ESP) from the ESCUDERIA BERBERECHO.</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="entries_RC3.html" class="navigation navigation-prev " aria-label="Previous page: RC3">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Section 1_report.html" class="navigation navigation-next " aria-label="Next page: Section 1">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"RC4","level":"1.2.4","depth":2,"next":{"title":"Section 1","level":"1.3","depth":1,"path":"Section 1_report.md","ref":"Section 1_report.md","articles":[{"title":"SS1 - Lousada (SSS)","level":"1.3.1","depth":2,"path":"SS1_report.md","ref":"SS1_report.md","articles":[]}]},"previous":{"title":"RC3","level":"1.2.3","depth":2,"path":"entries_RC3.md","ref":"entries_RC3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"entries_RC4.md","mtime":"2018-05-18T10:08:23.226Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-18T12:08:16.350Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
