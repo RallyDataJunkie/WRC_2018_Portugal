@@ -1,3 +1,6 @@
+# Stage Map - Portugal, 2018 - SS4
+
+![](maps/SS04-07.png)
 # Stage Progress Chart - Portugal, 2018 - SOR - SS4
 
 ![](images/stage_report_4_SOR.png)

@@ -1,3 +1,6 @@
+# Stage Map - Portugal, 2018 - SS3
+
+![](maps/SS03-06.png)
 # Stage Progress Chart - Portugal, 2018 - MEE - SS3
 
 ![](images/stage_report_3_MEE.png)
